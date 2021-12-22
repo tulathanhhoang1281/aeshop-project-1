@@ -1,0 +1,300 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* san pham */ 
+
+.cf-content
+{
+    position: relative;
+    height: 22em !important;
+}
+.cf-product
+{
+    height: 48em !important;
+}
+.cont
+{
+    height: 90%;
+    margin-top: 50px;
+    padding:0;
+    width: 100%;
+}
+.product-warp .product3,
+.product-warp .product1, .product-warp .product2
+{
+    position: relative;
+    bottom: 2em;
+}
+.content .cont #P-Warpper
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 3px solid black;
+    text-align: center;
+}
+.cont #P-Warpper h4
+{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+.container-fluid
+{
+    height: 19em;
+    max-width: 50.25em !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 !important;
+}
+.product-warp .list-title h3
+{
+    font-size: 22px;
+    font-weight: bold;
+}
+.product-warp .list-title a
+{
+    display: block;
+    height: 2em;
+    font-size: 14px;
+    width: 10em;
+    text-align: center;
+    position: relative;
+    top: 0.5em;
+    line-height: 2em;
+    border: 1px solid #21beff;
+    background-color: #279cff;
+    color: white;
+    text-decoration: none;
+    right: 3.5em;
+}
+.product-warp .list-title
+{
+    display: flex;
+    height: 7em;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 1em;
+}
+.product-warp .list-title h2
+{
+    position: relative;
+    bottom: 1em;
+}
+.product a
+{
+    text-decoration: none !important;
+}
+.product .item-btn:hover p
+{
+    background-color: #21beff;
+    color: white !important;
+    cursor: pointer;
+}
+#canva-pro,#random-pro,#adobe-pro
+{
+    top: 1em !important;
+}
+#among-pro
+{
+    margin-top: 1em !important;
+}
+#monster-pro,
+#witcher3-pro,#nitro-pro,#human-pro
+{
+    margin-top: 2em !important;
+}
+.cf-product .product-warp
+{
+   height: 100%;
+}
+.product1 , .product2 , .product3 , .product4, .product5, .product6,
+.product7, .product8, .product9
+{
+    height: 300px;
+    border: 1px solid black;
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-left: 30px !important;
+    max-width: 222.5px !important;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+.product1 img,.product2 img,.product3 img,.product4 img,.product5 img,.product6 img,
+.product7 img,.product8 img,.product9 img
+{
+    max-width: 307.4px !important;
+    max-height: 103px !important;
+    min-width: 222.5px !important;
+    border-radius: 5px;
+}
+.product3 img
+{
+    padding-right: 2px;
+}
+.cur-p
+{
+    font-weight: bold;
+}
+.price-block .old-p
+{
+    text-decoration: line-through;
+}
+.price-block .dis-p
+{
+    font-size: 13px;
+    background-color: rgba(248, 0, 0, 0.8);
+    color: white;
+    border-radius: 3px;
+    height: 15px;
+    font-weight: bold;
+    padding-bottom: 3px; 
+}
+.item-price
+{
+    text-align: center;
+}
+.product1 p
+{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 8px;
+    margin: 0;
+}
+.product1 .item-icon
+{  
+    height: 35px;
+    position: relative;
+    text-align: center;
+    padding-right: 20px;
+}
+.product1 .item-icon .fa-shopping-cart
+{
+    font-size: 18px;
+    position: absolute;
+    top: 10px;
+    color: grey;
+}
+.product1 .item-btn
+{
+    width: 84.9px;
+    height: 30px;
+    position: relative;
+    left: 70px;
+    top: 5px;
+    border: 1px solid #21beff;;
+    border-radius: 3px;
+    font-size: 13px;
+}
+.product1 .item-btn p
+{
+    padding:0;
+    color: #21beff;
+    width: 84.9px;
+    padding-top: 3px;
+    height: 30px;
+}
+.product8 p , .product9 p ,
+.product7 p ,
+.product6 p , .product7 p ,
+.product4 p , .product5 p ,
+.product2 p , .product3 p
+{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 8px;
+    margin: 0;
+}
+.product9 .item-icon .fa-shopping-cart,
+.product8 .item-icon .fa-shopping-cart,
+.product7 .item-icon .fa-shopping-cart,
+.product6 .item-icon .fa-shopping-cart,
+.product5 .item-icon .fa-shopping-cart,
+.product4 .item-icon .fa-shopping-cart,
+.product3 .item-icon .fa-shopping-cart,
+.product2 .item-icon .fa-shopping-cart
+{
+    font-size: 18px;
+    top: 8px;
+    color: grey;
+    position: relative;
+    right: 100px;  
+}
+.product9 .item-btn,
+.product8 .item-btn,
+.product7 .item-btn,
+.product6 .item-btn,
+.product5 .item-btn,
+.product4 .item-btn,
+.product3 .item-btn,
+.product2 .item-btn
+{
+    width: 84.9px;
+    height: 30px;
+    position: relative;
+    left: 70px;
+    top: 38px;
+    border: 1px solid #21beff;;
+    border-radius: 3px;
+    font-size: 13px;
+}
+.product9 .item-btn p,
+.product8 .item-btn p,
+.product7 .item-btn p,
+.product6 .item-btn p,
+.product5 .item-btn p,
+.product4 .item-btn p,
+.product3 .item-btn p,
+.product2 .item-btn p
+{
+    padding:0;
+    color: #21beff;
+    width: 85px;
+    padding-top: 3px;
+    height: 30px;
+}
+.product9 .item-icon .fa-shopping-cart:hover,
+.product8 .item-icon .fa-shopping-cart:hover,
+.product7 .item-icon .fa-shopping-cart:hover,
+.product6 .item-icon .fa-shopping-cart:hover,
+.product5 .item-icon .fa-shopping-cart:hover,
+.product4 .item-icon .fa-shopping-cart:hover,
+.product3 .item-icon .fa-shopping-cart:hover,
+.product2 .item-icon .fa-shopping-cart:hover,
+.product1 .item-icon .fa-shopping-cart:hover
+{
+    color: orange;
+    cursor: pointer;
+}
+.product9 .item-btn:hover>p,
+.product8 .item-btn:hover>p,
+.product7 .item-btn:hover>p,
+.product6 .item-btn:hover>p,
+.product5 .item-btn:hover>p,
+.product4 .item-btn:hover>p,
+.product3 .item-btn:hover>p,
+.product2 .item-btn:hover>p,
+.product1 .item-btn:hover>p
+{
+    background-color: #21beff;
+    color: white;
+    cursor: pointer;
+}
+.product-warp h2 {
+padding: 47px;
+margin-left: 54px;
+}
+

@@ -1,0 +1,323 @@
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em)
+{
+    .Search-bar,
+    .navbar-dis .menu-tab-all
+    {
+        display: none;
+    }
+    .cf-slider
+    {
+        height: 20em;
+    }
+    .navbar-dis .middile
+    {
+        left: 0!important;
+    }
+    /* Slide */
+    .carousel-inner
+    {
+        height: 100%;
+    }
+    .carousel-inner .carousel-item,
+    .slide,
+    .carousel-inner .d-block
+    {
+        height: 200px !important;
+    }
+    .middile
+    {
+        height: 45% !important;
+    }
+    /* Slide */
+    .sub-banner
+    {
+        left: 0!important;
+        flex-direction: row !important;
+        width: 100% !important;
+        height: 6em !important;
+        top: 7em;
+    }
+    .navbar-dis
+    {
+        height: 60% !important;
+    }
+    /* content */
+    .cf-content
+    {
+        height: 30em !important;
+        display: flex;
+        justify-content: space-between;
+    }
+    .cf-product
+    {
+        margin-top: 1.5em;
+    }
+    .cf-product .list-title
+    {
+        margin:0;
+        margin-bottom: 0 !important;
+    }
+    .cf-product .list-title a
+    {
+        position: relative;
+        left: 1em ;
+    }
+    .content
+    {
+        width: 100%;
+        height: 30em;
+        margin-right: 1.3em !important;
+    }
+    .cont
+    {
+        width: 100%;
+        height: 80%;
+    }
+    .product-warp
+    {
+        width: 100%;
+        height: 80em;
+    }
+    .cont #P-Warpper
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100% !important;
+        height: 125% !important;
+        left: 1.2em !important;
+        bottom: 2.9em !important;
+    }
+    .product-warp
+    {
+        top: 1em;
+        left: 0em !important;
+        margin: 0rem !important;
+    }
+    .product-warp .list-title
+    {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+    .product-warp h2
+    {
+        font-size: 20px;
+        font-weight: 600;
+        width: 10em;
+    }
+    .product
+    {
+        margin: 0em !important;
+        position: relative;
+        left: 19% !important ;
+        top: 0.2em;
+    }
+    .product1,.product2,.product3,.product4
+    {
+        margin-bottom: 1em !important;
+    }
+    .list-qa
+    {
+        position: relative;
+        top: 50em;
+        height: 57em;
+    }
+    #footer
+    {
+        position: relative;
+        top: 50em;
+        height: 35em;
+        text-align: center;
+        justify-content: center;
+    }
+    .footertt3,
+    .footertt4
+    {
+        top: 0 !important;
+    }
+    #footer .col-sm-4
+    {
+        margin-top: 1em;
+    }
+    #footer .col-gt p
+    {
+        margin: 0;
+        text-align: center;
+    }
+    .question
+    {
+        position: relative;
+        top: 7em;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        height: 50em;
+    }
+    .question .q-a,.question .rating
+    {
+        display: flex;
+        justify-content: space-around;
+        padding: 0em !important;
+        width: 100% !important;
+    }
+    .question .qa-warpper,.qa,.question .rating-warpper
+    {
+        width: 95%;
+        padding-left: 0em;
+    }
+    .question .rating-warpper
+    {
+        height: 78% !important;
+    }
+    .question .qa-warpper .qa4
+    {
+        margin-bottom: 1em;
+    }
+    .question .ques
+    {
+        width: 100% !important;
+    }
+    .question .rating
+    {
+        position: relative;
+        top: 5em;
+    }
+    .question .form-rating
+    {
+        padding-left: 1em;
+        margin-left: 0.1em;
+    }
+    .question .form-rating #input-noidung
+    {
+        width: 20em;
+    }
+    .rating-warpper .form-rating #input-noidung,
+    .rating-warpper .form-rating #input-ten
+    {
+        border: 1px solid black !important;
+    }
+    /* Tin tuc */
+    .article-related .list,
+    .content-body .list
+    {
+        padding-left: 1em !important;
+    }  
+    .content-intro,
+    .content-body,.content-header-write,.article-related{
+        padding-left: 1.25em;
+        padding-right: 1.25em;
+    }
+    /* End tin tuc */
+}
+/* Tablet: Width >= 740px and Width <1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em)
+{
+    .navbar-dis .menu-tab-all
+    {
+        display: none;
+    }
+    .content
+    {
+        margin: 0 !important;
+        justify-content: center;
+    }
+    .list-qa 
+    {
+        position: relative;
+        top: 2em;
+    }
+    .list-qa .qa-warpper .ques
+    {
+        width: 100%;
+    }
+    .list-qa .rating
+    {
+        padding-left: 15px !important;
+    }
+    .list-qa .q-a
+    {
+        width: 100%;
+    }
+    .qa-warpper .qa
+    {
+        padding-left: 0.3em !important;
+    }
+    .qa-warpper .qa .ques
+    {
+        width: 95% !important;
+    }
+    #footer
+    {
+        position: relative;
+        top: 8em;
+        height: 20em;
+        justify-content: center;
+    }
+    #footer .col-gt 
+    {
+        padding-right: 15px !important;
+    }
+    #footer .col-gt p
+    {
+        margin: 0 !important;
+        width: 100%;
+    }
+    .list-qa .rating-warpper
+    {
+        height: 20.7em;
+    }
+    .list-qa .rating-warpper .form-rating
+    {
+        padding-left: 1em !important;
+    }
+    .rating-warpper .form-rating .tenkh
+    {
+        padding-bottom: 1em;
+    }
+    .rating-warpper .form-rating #input-ten
+    {
+        border: 1px solid black !important;
+    }
+    .rating-warpper .form-rating #input-noidung
+    {
+        width: 20em;
+    }
+}
+@media only screen and (min-width: 64em)
+{
+    
+    .rating-warpper .form-rating #input-noidung
+    {
+        width: 25em;
+    }
+    .rating-warpper .form-rating #input-noidung,
+    .rating-warpper .form-rating #input-ten
+    {
+        border: 1px solid black !important;
+    }
+}
+/* Tin tuc res cua hoang */
+@media only screen and (max-width: 768px) {
+    .content-info::before .content-info::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .content-info{
+        max-width: 100%;
+    }
+    .content-header > img{
+        max-width: 100%;
+        float: left;
+        width: 100%;
+    }
+    .content-body > img{
+        max-width: 100%;
+    }
+    .content-header-write{
+        max-width: 100%;
+    }
+}
+/* End res tin tuc */

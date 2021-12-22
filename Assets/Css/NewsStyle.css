@@ -1,0 +1,203 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.header
+{
+    background-color: rgba(39, 114, 245, 0.8);
+    height: 80px;
+    width: 100%;
+    display: none;
+    margin: 0 !important;
+    
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-collapse ul li
+{
+   min-width: 193.78px;
+   text-align: center;
+}
+#nopadding
+{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.head
+{
+    height: 80px;
+}
+.container
+{
+    max-width: 100% !important;
+    position: relative;
+    padding: 0.3em 1em;
+}
+.col .header-dis p
+{
+    margin: 0;
+    position: relative;
+    width: 300px !important;
+    vertical-align: middle;
+    margin-left: 55px;
+    bottom: 38px;
+    font-weight: bold;
+}
+.col .header-dis
+{
+    padding-top: 10px;
+    width: 500px;
+}
+.col .Search-bar
+{
+    float: right;
+    position: relative;
+    bottom: 60px;
+    width: 300px;
+}
+.col .Search-bar p
+{
+    position: relative;
+    bottom: 15px;
+    margin: 0;
+    left: 10px;
+}
+.col .Search-bar #search
+{
+    width: 190px;
+    height: 25px;
+}
+.fa-bell
+{
+    font-size: 45px;
+    position: relative;
+    top: 7px;
+    color: black;
+}
+.fa-shopping-cart
+{    
+    position: relative;
+    bottom: 25px;
+    float: right;
+    font-size: 43px ;
+}
+.navbar .col
+{
+    padding:0;
+    height: 30px;
+    border-right: 3px solid black;
+    text-align: center;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;   
+}
+.navbar .col a
+{
+    text-decoration: none;   
+    display: block;
+    height: 25px;
+    color: black;
+}
+.navbar .col:hover>a
+{    
+    background-color: #21beff;
+    color: white;
+}
+/* Head */
+.nav {
+    padding-top: 20px;
+}
+hr {  /* Tin tuc */
+    border-radius: 3em;
+}
+.col-sm-8 h2, .col-sm-4 h2{
+    padding-top: 10px;
+}
+/* Search bar */
+.Search-bar .fa-search
+{
+    position: relative;
+    left: 12.5em;
+}
+.col .Search-bar #search
+{
+    width: 190px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 1em;
+}
+/* END SEARCHBAR */
+.sidebar {
+    width: 70%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
+    
+}
+.sidebar-title p{
+    display: flex;
+    align-items: center;
+    float: right;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    
+}
+.sidebar-title h4 {
+    
+    margin-left: 15px;
+}
+.sidebar-title p {
+    margin-left: 30px;
+    text-align: justify;
+    color:#777777;
+}
+.fa-clock {
+    margin-left: 40px;
+    font-size: 15px; 
+}
+
+/* button */ 
+.csw-btn-button {
+    cursor: pointer;
+    font-size: 14px;
+    padding: 10px 35px;
+    color: #ffffff !important;
+    border-radius: 5px;
+    background: #9B6A1D;
+    border: 1px solid #9B6A1D;
+    transition: 0.4s;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  .csw-btn-button:hover {
+    background: #292929;
+  }
+
+/*  Footer */ 
+footer p, h2, h3 {
+    color: black;
+    
+}
+footer p {
+    text-align: justify;
+    margin-left: 120px;
+}
+.bg-4 {
+    background-color: #DDDDDD;
+    margin-top: 5em;
+    height: 250px;
+}
+.col-sm-4 {
+    float: left;
+    width: 33.33%;
+    
+}
